@@ -5,7 +5,7 @@ A network foundation framework based on Alamorefire and ObjectMapper
 pod 'ABSNetwork', '1.0.0'
 ~~~~
 
-# Useage:
+# Usage:
 Normal use
 ~~~~
 ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"value"], success:{[weak self](request,response) in 
