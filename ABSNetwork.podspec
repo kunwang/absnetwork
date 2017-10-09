@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = "ABSNetwork"
-  s.version                 = "1.0.0"
+  s.version                 = "1.0.1"
   s.summary                 = "A network foundation framework based on Alamorefire and ObjectMapper"
   s.license                 = "MIT"
   s.homepage                = "https://github.com/kunwang/absnetwork"
