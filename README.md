@@ -11,6 +11,8 @@ ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"va
 })
 ~~~~
 
+
+
 Generic response use
 ~~~~
 ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"value"], success:{[weak self](request,response:ABSGenericResponse<YourObjectMapperObject>) in 
@@ -20,11 +22,16 @@ ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"va
 })
 ~~~~
 
+
+
 Requestor use
 ~~~~
 let requestor = ABSRequestor(ABSRequest("https://www.google.com").params([["key":"value"]]).headers(["key":"value"])).delegate(completeHandlerDelegateInstance)
 requestor.execute()
 ~~~~
+
+
+
 or 
 ~~~~
 let requestor = ABSRequestor(ABSRequest("https://www.google.com").params([["key":"value"]]).headers(["key":"value"])).handler({[weak self](request,response) in 
@@ -35,6 +42,9 @@ let requestor = ABSRequestor(ABSRequest("https://www.google.com").params([["key"
 requestor.execute()
 ~~~~
 
+
+
+
 Multi requestor all finish request
 ~~~~
 let requestor1 = ABSRequestor(ABSRequest("https://www.google.com").params([["key":"value"]]).headers(["key":"value"])).delegate(delegateInstance)
@@ -42,3 +52,5 @@ let requestor2 = ABSRequestor(ABSRequest("https://www.google.com").params([["key
 let requestorJoiner = ABSRequestorJoiner().join(requestor1).join(requestor2).delegate(requestorJoinerDelegateInstance)
 requestorJoiner.execute()
 ~~~~
+
+
