@@ -1,0 +1,6 @@
+framework module Pods_ABSNetwork {
+  umbrella header "Pods-ABSNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

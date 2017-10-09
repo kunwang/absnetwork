@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70F97144B51DAE87418CA587 /* Pods_ABSNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CD91A6E768A8465DC3B282 /* Pods_ABSNetwork.framework */; };
+		D2679B121F8B7007009BFC03 /* ABSCompleteHandlerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B021F8B7007009BFC03 /* ABSCompleteHandlerDelegate.swift */; };
+		D2679B131F8B7007009BFC03 /* ABSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B031F8B7007009BFC03 /* ABSLogger.swift */; };
+		D2679B141F8B7007009BFC03 /* ABSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B041F8B7007009BFC03 /* ABSRequest.swift */; };
+		D2679B151F8B7007009BFC03 /* ABSRequestMultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B051F8B7007009BFC03 /* ABSRequestMultipartFormData.swift */; };
+		D2679B161F8B7007009BFC03 /* ABSRequestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B061F8B7007009BFC03 /* ABSRequestor.swift */; };
+		D2679B171F8B7007009BFC03 /* ABSRequestorJoiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B071F8B7007009BFC03 /* ABSRequestorJoiner.swift */; };
+		D2679B181F8B7007009BFC03 /* ABSRequestPreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B081F8B7007009BFC03 /* ABSRequestPreHandler.swift */; };
+		D2679B191F8B7007009BFC03 /* ABSRequestSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B091F8B7007009BFC03 /* ABSRequestSessionManager.swift */; };
+		D2679B1A1F8B7007009BFC03 /* ABSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B0A1F8B7007009BFC03 /* ABSResponse.swift */; };
+		D2679B1B1F8B7007009BFC03 /* ABSResponsePostHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B0B1F8B7007009BFC03 /* ABSResponsePostHandler.swift */; };
+		D2679B1C1F8B7007009BFC03 /* ABSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B0C1F8B7007009BFC03 /* ABSUtils.swift */; };
+		D2679B1D1F8B7007009BFC03 /* ABSGenericComplementHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B0E1F8B7007009BFC03 /* ABSGenericComplementHandler.swift */; };
+		D2679B1E1F8B7007009BFC03 /* ABSGenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B0F1F8B7007009BFC03 /* ABSGenericResponse.swift */; };
+		D2679B1F1F8B7007009BFC03 /* ABSRequestor+Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B101F8B7007009BFC03 /* ABSRequestor+Generic.swift */; };
+		D2679B201F8B7007009BFC03 /* ABSRequestSessionManager+Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2679B111F8B7007009BFC03 /* ABSRequestSessionManager+Generic.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03455046675DBAB6905DB610 /* Pods-ABSNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABSNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABSNetwork/Pods-ABSNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		51CD91A6E768A8465DC3B282 /* Pods_ABSNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABSNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84A96464993B2FC5614189A /* Pods-ABSNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABSNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABSNetwork/Pods-ABSNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		D21C6AAB1F8B409200D65747 /* ABSNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABSNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21C6ABA1F8B409200D65747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21C6AE01F8B63C200D65747 /* ABSNetwork-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABSNetwork-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2679B021F8B7007009BFC03 /* ABSCompleteHandlerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSCompleteHandlerDelegate.swift; sourceTree = "<group>"; };
+		D2679B031F8B7007009BFC03 /* ABSLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSLogger.swift; sourceTree = "<group>"; };
+		D2679B041F8B7007009BFC03 /* ABSRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSRequest.swift; sourceTree = "<group>"; };
+		D2679B051F8B7007009BFC03 /* ABSRequestMultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSRequestMultipartFormData.swift; sourceTree = "<group>"; };
+		D2679B061F8B7007009BFC03 /* ABSRequestor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSRequestor.swift; sourceTree = "<group>"; };
+		D2679B071F8B7007009BFC03 /* ABSRequestorJoiner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSRequestorJoiner.swift; sourceTree = "<group>"; };
+		D2679B081F8B7007009BFC03 /* ABSRequestPreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSRequestPreHandler.swift; sourceTree = "<group>"; };
+		D2679B091F8B7007009BFC03 /* ABSRequestSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSRequestSessionManager.swift; sourceTree = "<group>"; };
+		D2679B0A1F8B7007009BFC03 /* ABSResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSResponse.swift; sourceTree = "<group>"; };
+		D2679B0B1F8B7007009BFC03 /* ABSResponsePostHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSResponsePostHandler.swift; sourceTree = "<group>"; };
+		D2679B0C1F8B7007009BFC03 /* ABSUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSUtils.swift; sourceTree = "<group>"; };
+		D2679B0E1F8B7007009BFC03 /* ABSGenericComplementHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSGenericComplementHandler.swift; sourceTree = "<group>"; };
+		D2679B0F1F8B7007009BFC03 /* ABSGenericResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSGenericResponse.swift; sourceTree = "<group>"; };
+		D2679B101F8B7007009BFC03 /* ABSRequestor+Generic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ABSRequestor+Generic.swift"; sourceTree = "<group>"; };
+		D2679B111F8B7007009BFC03 /* ABSRequestSessionManager+Generic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ABSRequestSessionManager+Generic.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D21C6AA81F8B409200D65747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F97144B51DAE87418CA587 /* Pods_ABSNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E182CB9816F8FF0BA3C8108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51CD91A6E768A8465DC3B282 /* Pods_ABSNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFA27A92485DBE3C9C3FAC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B84A96464993B2FC5614189A /* Pods-ABSNetwork.debug.xcconfig */,
+				03455046675DBAB6905DB610 /* Pods-ABSNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D21C6AA21F8B409200D65747 = {
+			isa = PBXGroup;
+			children = (
+				D21C6AAD1F8B409200D65747 /* ABSNetwork */,
+				D21C6AAC1F8B409200D65747 /* Products */,
+				CEFA27A92485DBE3C9C3FAC6 /* Pods */,
+				6E182CB9816F8FF0BA3C8108 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D21C6AAC1F8B409200D65747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21C6AAB1F8B409200D65747 /* ABSNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D21C6AAD1F8B409200D65747 /* ABSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				D2679B011F8B7007009BFC03 /* Sources */,
+				D21C6AE01F8B63C200D65747 /* ABSNetwork-Bridging-Header.h */,
+				D21C6ABA1F8B409200D65747 /* Info.plist */,
+			);
+			path = ABSNetwork;
+			sourceTree = "<group>";
+		};
+		D2679B011F8B7007009BFC03 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D2679B021F8B7007009BFC03 /* ABSCompleteHandlerDelegate.swift */,
+				D2679B031F8B7007009BFC03 /* ABSLogger.swift */,
+				D2679B041F8B7007009BFC03 /* ABSRequest.swift */,
+				D2679B051F8B7007009BFC03 /* ABSRequestMultipartFormData.swift */,
+				D2679B061F8B7007009BFC03 /* ABSRequestor.swift */,
+				D2679B071F8B7007009BFC03 /* ABSRequestorJoiner.swift */,
+				D2679B081F8B7007009BFC03 /* ABSRequestPreHandler.swift */,
+				D2679B091F8B7007009BFC03 /* ABSRequestSessionManager.swift */,
+				D2679B0A1F8B7007009BFC03 /* ABSResponse.swift */,
+				D2679B0B1F8B7007009BFC03 /* ABSResponsePostHandler.swift */,
+				D2679B0C1F8B7007009BFC03 /* ABSUtils.swift */,
+				D2679B0D1F8B7007009BFC03 /* Generic+ObjectMapper */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D2679B0D1F8B7007009BFC03 /* Generic+ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				D2679B0E1F8B7007009BFC03 /* ABSGenericComplementHandler.swift */,
+				D2679B0F1F8B7007009BFC03 /* ABSGenericResponse.swift */,
+				D2679B101F8B7007009BFC03 /* ABSRequestor+Generic.swift */,
+				D2679B111F8B7007009BFC03 /* ABSRequestSessionManager+Generic.swift */,
+			);
+			path = "Generic+ObjectMapper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D21C6AAA1F8B409200D65747 /* ABSNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21C6ABD1F8B409200D65747 /* Build configuration list for PBXNativeTarget "ABSNetwork" */;
+			buildPhases = (
+				839C74E3239335921724394A /* [CP] Check Pods Manifest.lock */,
+				D21C6AA71F8B409200D65747 /* Sources */,
+				D21C6AA81F8B409200D65747 /* Frameworks */,
+				D21C6AA91F8B409200D65747 /* Resources */,
+				768718116A1276E2BF23171B /* [CP] Embed Pods Frameworks */,
+				14EA9269CB7025FF173A8303 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABSNetwork;
+			productName = ABSNetwork;
+			productReference = D21C6AAB1F8B409200D65747 /* ABSNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D21C6AA31F8B409200D65747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.abswang;
+				TargetAttributes = {
+					D21C6AAA1F8B409200D65747 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = R6QS6K6LT6;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D21C6AA61F8B409200D65747 /* Build configuration list for PBXProject "ABSNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D21C6AA21F8B409200D65747;
+			productRefGroup = D21C6AAC1F8B409200D65747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21C6AAA1F8B409200D65747 /* ABSNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21C6AA91F8B409200D65747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EA9269CB7025FF173A8303 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ABSNetwork/Pods-ABSNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		768718116A1276E2BF23171B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ABSNetwork/Pods-ABSNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839C74E3239335921724394A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D21C6AA71F8B409200D65747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2679B161F8B7007009BFC03 /* ABSRequestor.swift in Sources */,
+				D2679B1F1F8B7007009BFC03 /* ABSRequestor+Generic.swift in Sources */,
+				D2679B141F8B7007009BFC03 /* ABSRequest.swift in Sources */,
+				D2679B151F8B7007009BFC03 /* ABSRequestMultipartFormData.swift in Sources */,
+				D2679B1D1F8B7007009BFC03 /* ABSGenericComplementHandler.swift in Sources */,
+				D2679B131F8B7007009BFC03 /* ABSLogger.swift in Sources */,
+				D2679B171F8B7007009BFC03 /* ABSRequestorJoiner.swift in Sources */,
+				D2679B181F8B7007009BFC03 /* ABSRequestPreHandler.swift in Sources */,
+				D2679B1E1F8B7007009BFC03 /* ABSGenericResponse.swift in Sources */,
+				D2679B1B1F8B7007009BFC03 /* ABSResponsePostHandler.swift in Sources */,
+				D2679B201F8B7007009BFC03 /* ABSRequestSessionManager+Generic.swift in Sources */,
+				D2679B121F8B7007009BFC03 /* ABSCompleteHandlerDelegate.swift in Sources */,
+				D2679B1A1F8B7007009BFC03 /* ABSResponse.swift in Sources */,
+				D2679B191F8B7007009BFC03 /* ABSRequestSessionManager.swift in Sources */,
+				D2679B1C1F8B7007009BFC03 /* ABSUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D21C6ABB1F8B409200D65747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D21C6ABC1F8B409200D65747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D21C6ABE1F8B409200D65747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B84A96464993B2FC5614189A /* Pods-ABSNetwork.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = R6QS6K6LT6;
+				INFOPLIST_FILE = ABSNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abswang.ABSNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ABSNetwork/ABSNetwork-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D21C6ABF1F8B409200D65747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03455046675DBAB6905DB610 /* Pods-ABSNetwork.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = R6QS6K6LT6;
+				INFOPLIST_FILE = ABSNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abswang.ABSNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ABSNetwork/ABSNetwork-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D21C6AA61F8B409200D65747 /* Build configuration list for PBXProject "ABSNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21C6ABB1F8B409200D65747 /* Debug */,
+				D21C6ABC1F8B409200D65747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21C6ABD1F8B409200D65747 /* Build configuration list for PBXNativeTarget "ABSNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21C6ABE1F8B409200D65747 /* Debug */,
+				D21C6ABF1F8B409200D65747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D21C6AA31F8B409200D65747 /* Project object */;
+}
