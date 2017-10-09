@@ -1,2 +1,2 @@
 # absnetwork
-A network foundation frame base on Alamorefire and ObjectMapper
+A network foundation framework based on Alamorefire and ObjectMapper
