@@ -37,7 +37,7 @@ open class ABSRequestSessionManager: Alamofire.SessionManager {
     
     // request pre handlers init
     open func configRequestPreHandlers() {
-        // default do nothing, config your own pre handlers
+        self.requestPreHandlers.append(ABSRequestPreCommonHeaderHandler.shared)
     }
     
     // request pre handlers init
