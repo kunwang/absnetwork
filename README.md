@@ -1,11 +1,11 @@
 # absnetwork
-A network foundation framework based on Alamorefire and ObjectMapper
+A network foundation framework based on Alamorefire and ObjectMapper. This framework provide more sample and easy use interfaces and supports request retry, multi requests, generic response, pre request handlers and post response handlers configuration.
 # CocoaPods
 ~~~~
 pod 'ABSNetwork', '1.0.0'
 ~~~~
 
-# Useage:
+# Usage:
 Normal use
 ~~~~
 ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"value"], success:{[weak self](request,response) in 
@@ -57,4 +57,4 @@ let requestorJoiner = ABSRequestorJoiner().join(requestor1).join(requestor2).del
 requestorJoiner.execute()
 ~~~~
 
-
+# And many usage
