@@ -3,7 +3,7 @@ A network foundation framework based on Alamorefire and ObjectMapper
 
 # Useage:
 Normal use
-~~~~~
+~~~~
 ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"value"], success:{[weak self](request,response) in 
 	// do your work
 }, fail: {[weak self](request,response) in 
