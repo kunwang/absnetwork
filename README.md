@@ -1,5 +1,9 @@
 # absnetwork
 A network foundation framework based on Alamorefire and ObjectMapper
+# CocoaPods
+~~~~
+pod 'ABSNetwork', '1.0.0'
+~~~~
 
 # Useage:
 Normal use

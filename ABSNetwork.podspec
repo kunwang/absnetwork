@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage                = "https://github.com/kunwang/absnetwork"
   s.author                  = { "abstractwang" => "abstractwang@gmail.com" }
   s.ios.deployment_target   = '9.0'
-  s.source                  = { :git => "https://github.com/kunwang/absnetwork.git" }
+  s.source                  = { :git => "https://github.com/kunwang/absnetwork.git", :tag => s.version }
   s.source_files            = "Sources", "ABSNetwork/**/*.{swift}"
   s.resources               = "Resources", "ABSNetwork/**/*.{plist,sqlite3}"
   s.dependency 'Alamofire', '~> 4.5.1'
