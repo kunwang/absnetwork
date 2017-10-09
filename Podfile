@@ -3,7 +3,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 def using_pods
-    pod 'Alamofire', '4.5.1'
+    pod 'Alamofire', '~> 4.5.1'
     pod 'ObjectMapper', '~> 2.2'
 end
 
