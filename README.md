@@ -6,7 +6,7 @@ pod 'ABSNetwork', '1.0.0'
 ~~~~
 
 # Usage:
-Normal use
+Normal
 ~~~~
 ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"value"], success:{[weak self](request,response) in 
 	// do your work
@@ -17,7 +17,7 @@ ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"va
 
 
 
-Generic response use
+Generic response
 ~~~~
 ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"value"], success:{[weak self](request,response:ABSGenericResponse<YourObjectMapperObject>) in 
 	// do your work
@@ -28,7 +28,7 @@ ABSRequestSessionManager.shared.get("https://www.google.com", params: ["key":"va
 
 
 
-Requestor use
+Requestor
 ~~~~
 let requestor = ABSRequestor(ABSRequest("https://www.google.com").params([["key":"value"]]).headers(["key":"value"])).delegate(completeHandlerDelegateInstance)
 requestor.execute()
